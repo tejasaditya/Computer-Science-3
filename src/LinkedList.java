@@ -58,10 +58,13 @@ public class LinkedList {
     void printList()
     {
         Node printCurrent = head;
+        System.out.print(printCurrent.getValue());
+        printCurrent = printCurrent.getNext();
         while(printCurrent != null)
         {
             System.out.print(","+printCurrent.getValue());
             printCurrent = printCurrent.getNext();
         }
+        System.out.println();
     }
 }
