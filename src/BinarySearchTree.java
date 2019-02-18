@@ -8,6 +8,7 @@ public class BinarySearchTree
      this.parent = new TreeNode(value);
    }
 
+   // find the desired value and return it back
    TreeNode search(TreeNode root, int value)
     {
         if (root.getValue() > value)
@@ -31,13 +32,13 @@ public class BinarySearchTree
             root = new TreeNode(value);
             root.setParent(parent);
         }
-        if (value < root.getValue())
+        if (value <= root.getValue()) // if insert value is less than current term, move to the left leaf
        {
            parent = root;
            root.setLeft(root.left);
            recInsert(root.left, value);
        }
-       if (value > root.getValue())
+       if (value > root.getValue()) // if insert value is more than current term, move to the right leaf
        {
            parent = root;
            root.setRight(root.right);
@@ -45,6 +46,7 @@ public class BinarySearchTree
        }
     }
 
+    // delete a specific value
     void delete(int value)
     {
         TreeNode root = search(head, value);
@@ -81,7 +83,8 @@ public class BinarySearchTree
         return minValue;
     }
 
-    void printTree()
+   // print the BST
+   void printTree()
     {
         recPrintTree(head);
     }
