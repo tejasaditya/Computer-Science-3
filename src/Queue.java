@@ -6,19 +6,26 @@ public class Queue
    public Queue(Node node){
    this.head = node;
    this.tail = node;
-  }
+   }
 
   void deQueue()
   {
-   Node newTail = tail.getPrev();
-   System.out.println(tail.getValue());
-   tail.setPrev(null);
-   tail = newTail;
+      Node newTail = tail.getPrev();
+      System.out.println(tail.getValue());
+      tail.setPrev(null);
+      tail = newTail;
+      tail.setNext(null);
   }
   void enQueue(Node node)
   {
-   Node oldHead = head;
-   head = node;
-   head.setNext(oldHead);
+      Node oldHead = head;
+      head = node;
+      head.setNext(oldHead);
+      oldHead.setPrev(node);
+  }
+
+  int queuePeek()
+  {
+      return tail.getValue();
   }
 }

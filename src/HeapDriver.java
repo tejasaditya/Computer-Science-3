@@ -16,7 +16,8 @@ public class HeapDriver
         }
         System.out.println("");
         heap.makeHeap(test);
-        for (int i = 0; i < test.length / 2; i++) {
+        for (int i = 0; i < test.length / 2; i++)
+        {
             System.out.print("Parent:" + test[i]);
             if ((2*i)+1 < test.length)
             {

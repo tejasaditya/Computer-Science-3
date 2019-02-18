@@ -4,11 +4,19 @@ public class LinkedList {
     Node tail;
     Node current;
 
-    //   # e.g myArray = new Array(2)
     public LinkedList(Node node) {
+        if (node.getPrev() != null)
+        {
+            this.head = head;
+        }
+        else{ this.head = node;}
+        if (node.getNext() != null)
+        {
+            this.tail = tail;
+        }
+        else{ this.tail= node;}
+
         this.current = node;
-        this.head = node;
-        this.tail = node;
 
         //#when setting head and tail, you should check if it has prev, and next values and go to the end
     }

@@ -15,11 +15,13 @@ public class NodeListTest {
         mainStack.stackPush(secondNode);
         mainStack.stackPush(thirdNode);
         mainStack.stackPop();
+        System.out.println(mainStack.stackPeek());
 
         Queue mainQueue = new Queue(firstNode);
         mainQueue.enQueue(secondNode);
         mainQueue.enQueue(thirdNode);
         mainQueue.deQueue();
+        System.out.println(mainQueue.queuePeek());
 
     }
 }

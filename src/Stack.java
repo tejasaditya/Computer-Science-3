@@ -21,4 +21,9 @@ public class Stack
         head.getNext().setPrev(null);
         head = newHead;
     }
+
+    int stackPeek()
+    {
+        return head.getValue();
+    }
 }
