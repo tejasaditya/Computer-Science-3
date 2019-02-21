@@ -9,6 +9,10 @@ public class BSTTest
         tree.insert(20);
         tree.insert(60);
         tree.insert(80);
+        tree.insert(10);
+        tree.insert(45);
+        tree.delete(40);
         tree.printTree();
+
     }
 }
