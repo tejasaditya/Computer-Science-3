@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f54ebab-883a-4ea4-bb16-e8a38d9ad6b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FrequencyStringMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveRepeatedCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Computer Science 3/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Computer Science 3/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Computer Science 3/FrequencyStringMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Computer Science 3/FrequencyStringMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FrequencyStringMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrequencyStringMatch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FrequencyStringMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RemoveRepeatedCharacters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/PrimeSum.java" />
         <option value="$PROJECT_DIR$/src/StringMatch.java" />
         <option value="$PROJECT_DIR$/src/FrequencyStringMatch.java" />
+        <option value="$PROJECT_DIR$/src/RemoveRepeatedCharacters.java" />
       </list>
     </option>
   </component>
@@ -148,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551359743868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551458328184" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java1" />
   </component>
   <component name="RunDashboard">
@@ -163,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FrequencyStringMatch">
+  <component name="RunManager" selected="Application.RemoveRepeatedCharacters">
     <configuration name="BSTTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BSTTest" />
       <module name="Computer Science 3" />
@@ -178,15 +190,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NodeListTest" />
+    <configuration name="PrimeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeSum" />
       <module name="Computer Science 3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrimeSum" />
+    <configuration name="RemoveRepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveRepeatedCharacters" />
       <module name="Computer Science 3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -201,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveRepeatedCharacters" />
         <item itemvalue="Application.FrequencyStringMatch" />
         <item itemvalue="Application.StringMatch" />
         <item itemvalue="Application.PrimeSum" />
         <item itemvalue="Application.BSTTest" />
-        <item itemvalue="Application.NodeListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -434,8 +446,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FrequencyStringMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveRepeatedCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
